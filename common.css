@@ -1,0 +1,48 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Abhaya Libre", serif;
+  font-family: "Rajdhani", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.arrange-left {
+  float: left;
+}
+.wid-25 {
+  width: 25%;
+}
+.wid-50 {
+  width: 50%;
+}
+.wid-75 {
+  width: 75%;
+}
+.wid-33 {
+    width: 33.3%;
+  }
+.next-row {
+  clear: both;
+}
+.common-btn {
+  height: 35px;
+  border: 1px solid #ddd;
+  text-align: center;
+  min-width: 40px;
+  background-color: #fff;
+  color: #9fe2bf;
+  border-radius: 0px;
+  margin-right: 35px;
+}
+
+.common-btn span {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.common-btn span i {
+  padding: 0px 5px;
+}
