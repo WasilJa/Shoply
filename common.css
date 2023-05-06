@@ -27,6 +27,12 @@ body {
 .next-row {
   clear: both;
 }
+.ml-5{
+  margin-left: 15%;
+}
+.mt-5{
+  margin-top: 5%;
+}
 .common-btn {
   height: 35px;
   border: 1px solid #ddd;
@@ -45,4 +51,17 @@ body {
 
 .common-btn span i {
   padding: 0px 5px;
+}
+
+
+@media only screen and (max-width:992px){
+  .wid-25,.wid-50,.wid-75,.wid-33{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .arrange-left{
+    float:none;
+  }
+  
 }
