@@ -30,8 +30,8 @@ body {
 .ml-5{
   margin-left: 15%;
 }
-.mt-5{
-  margin-top: 5%;
+.mt-15{
+  margin-top: 15%;
 }
 .common-btn {
   height: 35px;
@@ -42,6 +42,10 @@ body {
   color: #9fe2bf;
   border-radius: 0px;
   margin-right: 35px;
+}
+.common-btn a{
+  color: #9fe2bf;
+
 }
 
 .common-btn span {
