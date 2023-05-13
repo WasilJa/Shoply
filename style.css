@@ -727,6 +727,49 @@ width: 100%;
 font-size: 15px;
 cursor: pointer;
 }
+/* Login page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 300px;
+  padding: 70px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:  #A4AAC6;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9fe2bf;
+  color: #fff;
+  margin-left: 10px;
+}
+
 
 @media only screen and (max-width:992px) {
   .search-product {
@@ -774,5 +817,10 @@ cursor: pointer;
     font-size: 50px;
     margin-left: 15px;
 
+  }
+}
+@media screen and (max-width: 480px) {
+  .login-form {
+    width: 80%;
   }
 }
